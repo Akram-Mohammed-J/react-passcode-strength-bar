@@ -1,10 +1,14 @@
-
 {
+  "verbose": true,
   "transform": {
-    "^.+\\.(t|j)sx?$": "ts-jest"
+    "^.+\\.(t|j)sx?$": "ts-jest",
+    "^.+\\.scss$": "<rootDir>/node_modules/jest-scss-transform"
+  },
+  "globals": {
+    "NODE_ENV": "test"
   },
   "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
   "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
-  "testEnvironment": "jsdom",
-  "transformIgnorePatterns": [".*"]
+  "moduleDirectories": ["node_modules", "src"],
+  "testEnvironment": "jsdom"
 }
