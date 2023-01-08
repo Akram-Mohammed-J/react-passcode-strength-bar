@@ -83,6 +83,15 @@ function App() {
 
 export default App;
 ```
+### Examples
+
+Checkout examples
+
+Live example
+
+> [Codesandbox](https://codesandbox.io/s/react-passcode-strength-example-rpunbl)
+
+> [Demo live vercel](https://react-passcode-strength-bar-example.vercel.app/)
 
 ### Password patterns
 
