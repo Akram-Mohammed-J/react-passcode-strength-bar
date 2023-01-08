@@ -2,6 +2,9 @@
 
 <p align='center'>React component for check  wheather the  password is strong.<p/>
 
+![Demo app](https://user-images.githubusercontent.com/42640947/211182171-2a6c23c4-3156-4acf-8441-2be9b97743ff.png)
+
+
 ### Install
 
 ```js
@@ -78,14 +81,17 @@ function App() {
   );
 }
 
-export default App;![enter image description here](https://photos.app.goo.gl/1N2k84BwCWC4MBzA9)
+export default App;
 ```
 
 ### Password patterns
 
 strong password : Demo@123
+
 moderate password: Demo123
+
 weak password: demo
+
 
 ### Props /Options
 
